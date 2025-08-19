@@ -1,0 +1,1 @@
+# fictional_name_generator
