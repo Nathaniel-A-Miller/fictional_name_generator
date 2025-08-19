@@ -11,8 +11,7 @@ import nltk
 nltk.download('names')
 
 names = nltk.corpus.names
-names.fileids()
-['female.txt', 'male.txt']
+
 male_names = names.words('male.txt')
 female_names = names.words('female.txt')
 
