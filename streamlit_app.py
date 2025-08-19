@@ -38,5 +38,5 @@ if st.button('Generate Names'):
         selected_names = random.sample(all_names, 3)
 
     st.write("Here are your names:")
-    st.write("Here are your names:")
-    st.write(", ".join(selected_names))
+    st.write(" ".join(selected_names))
+
